@@ -1,0 +1,8 @@
+// Simple JavaScript for a console message
+console.log("Resume Loaded Successfully!");
+
+// Example: Highlight name on load
+window.onload = function() {
+  const nameElement = document.getElementById("name");
+  nameElement.style.color = "#2c3e50";
+};
